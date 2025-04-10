@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+
+    <script>
+        function demo1() {
+            document.getElementById('demo1').style.color = 'yellow';
+            document.getElementById('demo1').style.backgroundColor = 'black';
+            document.getElementById('demo1').style.fontSize = '30px';
+            document.getElementById('demo1').style.fontWeight = 'bold';
+            document.getElementById('demo1').style.fontFamily ='cursive';
+            
+        }
+        function demo2() {
+            document.getElementById('demo2').style.color = '#eee';
+            document.getElementById('demo2').style.backgroundColor = 'tomato';
+            document.getElementById('demo2').style.fontSize = '30px';
+            document.getElementById('demo2').style.fontWeight = 'bold';
+            document.getElementById('demo2').style.fontFamily = 'cursive';
+
+        }
+        function demo3() {
+            document.getElementById('demo3').style.color = 'purple';
+            document.getElementById('demo3').style.backgroundColor = 'lightgreen';
+            document.getElementById('demo3').style.fontSize = '30px';
+            document.getElementById('demo3').style.fontWeight = 'bold';
+            document.getElementById('demo3').style.fontFamily = 'cursive';
+
+        }
+        function demo3_2() {
+            document.getElementById('demo3').style.color = 'lightgreen';
+            document.getElementById('demo3').style.backgroundColor = 'purple' ;
+            document.getElementById('demo3').style.fontSize = '30px';
+            document.getElementById('demo3').style.fontWeight = 'bold';
+            document.getElementById('demo3').style.fontFamily = 'cursive';
+
+        }
+        function demo2_2() {
+                document.getElementById('demo2').style.color = 'tomato';
+                document.getElementById('demo2').style.backgroundColor = '#eee';
+                document.getElementById('demo2').style.fontSize = '30px';
+                document.getElementById('demo2').style.fontWeight = 'bold';
+                document.getElementById('demo2').style.fontFamily = 'cursive'
+        }
+        function demo1_2() {
+            document.getElementById('demo1').style.color = 'black' ;
+            document.getElementById('demo1').style.backgroundColor = 'yellow';
+            document.getElementById('demo1').style.fontSize = '30px';
+            document.getElementById('demo1').style.fontWeight = 'bold';
+            document.getElementById('demo1').style.fontFamily = 'cursive';
+        }
+        function addImage() {
+            document.getElementById('demo4').src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/640px-Unofficial_JavaScript_logo_2.svg.png';
+
+        }
+    </script>
+</head>
+<body>
+
+    <button onclick="demo1()">demo1</button>
+    <button onclick="demo2()">demo2</button>
+    <button onclick="demo3()">demo3</button>
+    <button onclick="addImage()">Add IMG</button>
+    <br>
+    <hr>
+    <button onclick="demo1_2()">Swap colors demo1</button>
+    <button onclick="demo2_2()">Swap colors demo2</button>
+    <button onclick="demo3_2()">Swap colors demo3</button>
+
+
+    <p id="demo1"> My First JavaScript </p>
+    <p id="demo2"> My First JavaScript </p>
+    <p id="demo3"> My First JavaScript </p>
+    <img id="demo4" src="" alt="" >
+
+    
+</body>
+</html>

@@ -1,0 +1,61 @@
+    body {
+        background-color: rgb(255, 220, 225);
+
+
+    }
+
+    .pup {
+
+        text-align: center;
+        padding: 190px;
+        margin: 0;
+        color: white;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .pup1 {
+        background-image: url('wedding1.png');
+    }
+
+    .pup2 {
+        background-image: url('i1.jpg');
+    }
+
+    .center {
+        text-align: center;
+        font-family: cursive;
+    }
+
+    .italic-text {
+        font-family: 'Georgia', serif;
+        font-style: italic;
+        color: #444;
+        margin: 2rem 0;
+        line-height: 1.8;
+    }
+
+    .btn {
+        color: white;
+        padding: 15px 30px;
+        font-size: 18px;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+    }
+
+    .btn1 {
+        background-color: black;
+    }
+
+    .btn2 {
+        background-color: rgb(231, 91, 91);
+    }
+
+    .pad {
+        padding-left: 300px;
+        
+    }
